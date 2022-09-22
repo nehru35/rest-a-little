@@ -18,9 +18,9 @@ body {
 .container {
     font-weight: bold;
     position: absolute;
-    top: 10%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -10%);
+    transform: translate(-50%, -50%);
 }
 
 .container .time {
@@ -32,9 +32,14 @@ body {
 .container .date {
     font-size: 1rem;
     margin-top: 10px;
+    margin-bottom: 20px;
     text-align: center;
     font-style: italic;
     user-select: none;
+}
+
+.container .btn-container {
+    text-align: center;
 }
 
 .container .date span {
